@@ -15,13 +15,13 @@ const CatCard: React.FC<ICatCard> = ({ tag, title, body, author, time }) => {
     <div className={styles.container}>
       <div className={styles.card}>
         <div className={styles.card__header}>
-            <Image
-              src="/time-cat.jpg"
-              alt="card__image"
-              className={styles.card__image}
-              width="600"
-              height="400"
-            />
+          <Image
+            src="\time-cat.jpg"
+            alt="card__image"
+            className={styles.card__image}
+            width="600"
+            height="400"
+          />
         </div>
         <div className={styles.card__body}>
           <span className={`${styles.tag} ${styles['tag-blue']}`}>{tag}</span>
@@ -31,7 +31,7 @@ const CatCard: React.FC<ICatCard> = ({ tag, title, body, author, time }) => {
         <div className={styles.card__footer}>
           <div className={styles.user}>
             <Image
-              src="/time-cat.jpg"
+              src="\time-cat.jpg"
               alt="user__image"
               className={styles.user__image}
               width="40"
