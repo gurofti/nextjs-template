@@ -9,7 +9,7 @@ yarn dev
 ```
 
 
-## Husky (Git komutları işleme alınmadan önce çalıştılacak komutları tetikler. (Patlarsa göndermez :)) Prettier)
+## Husky (Git komutları işleme alınmadan önce çalıştılacak komutları tetikler. (Patlarsa göndermez :)) ESLint)
 yarn add -D husky
 
 npx husky install
@@ -23,3 +23,5 @@ Config dosya üzerinden yazım standartları belirlenir. (Kafanıza göre iş ya
 
 yarn add -D @commitlint/config-conventional @commitlint/cli
 
+## Storybook Kurulum (Componentler için dökümantasyon oluşturmaya yarar.)
+npx sb init --builder webpack5
